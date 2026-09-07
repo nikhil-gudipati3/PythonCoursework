@@ -1,0 +1,86 @@
+PYTHON OOPS - KEY POINTS
+
+1. OOPS
+- OOPS = Object-Oriented Programming System
+- Programming based on Classes and Objects.
+- Helps make code reusable, organized and easy to maintain.
+
+2. CLASS
+- Class is a blueprint/template for creating objects.
+- Contains attributes (data) and methods (functions).
+
+3. OBJECT
+- Object is an instance of a class.
+- Used to access class attributes and methods.
+
+4. ENCAPSULATION
+- Wrapping data and methods together inside a class.
+- Helps protect data from direct access.
+
+5. ABSTRACTION
+- Hiding unnecessary implementation details.
+- Shows only important information to the user.
+
+6. INHERITANCE
+- One class gets properties and methods from another class.
+- Used for code reusability.
+
+7. POLYMORPHISM
+- Same method/operator can perform different actions.
+- "One name, many forms."
+
+8. ACCESS MODIFIERS
+
+PUBLIC
+- Can be accessed from anywhere.
+- Example: name
+
+PROTECTED
+- Written using _ before the variable.
+- Example: _name
+- Mainly used within the class and its child classes.
+- Python treats it as a convention, not strict protection.
+
+PRIVATE
+- Written using __ before the variable.
+- Example: __name
+- Cannot be directly accessed normally from outside the class.
+- Python uses name mangling for private members.
+
+9. MAIN OOPS CONCEPTS
+
+- Encapsulation → Binding + protecting data
+- Abstraction → Hiding implementation
+- Inheritance → Reusing code
+- Polymorphism → One name, different behavior
+
+SELF
+- Refers to the current object.
+- Used to access instance variables and methods.
+- First parameter of an instance method.
+
+INSTANCE METHOD
+- Works with a specific object.
+- Uses self as the first parameter.
+- Can access instance and class variables.
+
+CLASS METHOD
+- Works with the class instead of a specific object.
+- Uses cls as the first parameter.
+- Can access class variables.
+- Uses @classmethod decorator.
+
+STATIC METHOD
+- Does not depend on object or class.
+- Does not use self or cls.
+- Used for utility/helper functions.
+- Uses @staticmethod decorator.
+
+DECORATOR
+- A decorator modifies or adds functionality to a function/method.
+- Written using @ before the decorator name.
+- @classmethod → makes a method a class method.
+- @staticmethod → makes a method a static method.
+
+
+
